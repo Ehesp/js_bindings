@@ -10,7 +10,7 @@ class JsArray<E> {
 
   /// Creates a new JavaScript array and initializes it to the contents of
   /// [other].
-  external JsArray.from(Iterable<E> other);
+  external factory JsArray.from(Iterable<E> other);
 }
 
 class JsArrayWrapper<E> extends ListBase<E> {
