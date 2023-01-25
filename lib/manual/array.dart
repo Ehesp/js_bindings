@@ -1,7 +1,7 @@
 part of '../manual.dart';
 
 @JS('Array')
-
+@staticInterop
 /// A [List] that proxies a JavaScript array.
 class JsArray<E> {
   /// Creates an empty JavaScript array.
